@@ -6,3 +6,8 @@
 @import "typography.css";
 @import "buttons.css";
 
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
