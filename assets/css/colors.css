@@ -1,4 +1,16 @@
 :root {
     --default-background: #f7f7f8;
     --black: #081226
+    --primary-color: #3498db;
+    --secondary-color: #2ecc71;
+    --background-color:  #f8f9fa;
+    --text-color: #333;
+    --border-color: #ddd;
+    --background-notification-color: #ff0000fa;
+    --notification-color: #fff
+}
+
+.notification-number{
+    background-color: var(--background-notification-color);
+    color: var(--background-color)
 }
