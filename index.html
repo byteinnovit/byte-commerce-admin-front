@@ -22,7 +22,7 @@
                     <li><a href="#"><i class="bi bi-cart-fill"></i>Orders <span class="orders-number">10</span> </a></li>
                     <li><a href="#"><i class="bi bi-tags-fill"></i>Products</a></li>
                     <li><a href="#"><i class="bi bi-person-fill"></i>Customer</a></li>
-                    <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000"><path d="M160-160v-320h160v320H160Zm240 0v-640h160v640H400Zm240 0v-440h160v440H640Z"/></svg>   Analytics</a></li>
+                    <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#888"><path d="M160-160v-320h160v320H160Zm240 0v-640h160v640H400Zm240 0v-440h160v440H640Z"/></svg>   Analytics</a></li>
                     <li><a href="#"><i class="bi bi-pin-angle-fill"></i>Marketing</a></li>
                     <li><a href="#"><i class="bi bi-x-octagon-fill"></i>Discount</a></li>
                 </ul>
@@ -48,7 +48,7 @@
             <header>
                 <div class="good-morning">
                     <h1>Good Morning, Jonathan!</h1>
-                    <p>Here's what's happening with your store today</p>
+                    <p class="good-morning-title">Here's what's happening with your store today</p>
                 </div>
                  <div class="calendar calendar-container">
                     <div class="calendar">
@@ -76,8 +76,7 @@
                             <p class="stats-number"> 
                                 <span>250</span>
                                 <span class="trend positive">
-                                    <i class="bi bi-arrow-up-right-circle-fill"> +2.5%</i>
-                                    
+                                    <i class="bi bi-arrow-up-right-circle-fill"> +2.5%</i>                                    
                                 </span>
                             </p>
                         </div>
@@ -129,9 +128,9 @@
                 <section class="sales-report">
                     <div class="sales">
                         <h2>Your sales report</h2>
-                        <p>Look at your sale</p>
+                        <p class="look-sale">Look at your sale</p>
                         <div class="sales-amount">$4,435.70</div>
-                        <p class="sales-trend positive">$2,330.00 (+2.6%)</p>
+                        <p class="sales trend positive"><i class="bi bi-arrow-up-right-circle-fill"> $2,330.00 (+2.6%)</i></p>
                     </div>
                     <div class="sales-chart">
                       <select name="" id="">
@@ -203,30 +202,34 @@
                   </section>
                   
                   <section class="top-products">
-                      <h2>Congratulations! 🎉</h2>
-                      <p>Some of your products already have the highest buyers</p>
-                      <div class="product-carousel">
-                          <div class="product-item">
-                              <img src="path/to/tshirt-black.jpg" alt="Black T-shirt">
-                              <h4>T-shirt Black</h4>
-                              <p>301 sold</p>
-                          </div>
-                          <div class="product-item">
-                              <img src="path/to/tshirt-white.jpg" alt="T-shirt Rainbow White">
-                              <h4>T-shirt Rainbow White</h4>
-                              <p>271 sold</p>
-                          </div>
-                          <div class="product-item">
-                              <img src="path/to/tshirt-yellow.jpg" alt="Yellow T-shirt">
-                              <h4>Yellow T-shirt</h4>
-                              <p>255 sold</p>
-                          </div>
-                          <!-- Ajoutez d'autres produits ici -->
-                      </div>
-                  </section>
+                    <h2>Congratulations! 🎉</h2>
+                    <p>Some of your products already have the highest buyers</p>
+                    <div class="carousel-container">
+                        <button class="carousel-button prev">&lt;</button>
+                        <div class="product-carousel">
+                            <div class="product-item">
+                                <img src="/assets/img/tshirt2.webp" alt="Black T-shirt">
+                                <h4>T-shirt Black</h4>
+                                <p>301 sold</p>
+                            </div>
+                            <div class="product-item">
+                                <img src="/assets/img/thirst4.webp" alt="T-shirt Rainbow White">
+                                <h4>T-shirt Rainbow White</h4>
+                                <p>271 sold</p>
+                            </div>
+                            <div class="product-item">
+                                <img src="/assets/img/tshirt.jpeg" alt="Yellow T-shirt">
+                                <h4>Yellow T-shirt</h4>
+                                <p>255 sold</p>
+                            </div>
+                        </div>
+                        <button class="carousel-button next">&gt;</button>
+                    </div>
+                </section>
               </div>
             </div>
         </main>
     </div>
+    <script src="/assets/js/app.js"></script>
 </body>
 </html>

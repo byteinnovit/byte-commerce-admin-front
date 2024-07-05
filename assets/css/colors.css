@@ -7,10 +7,24 @@
     --text-color: #333;
     --border-color: #ddd;
     --background-notification-color: #ff0000fa;
-    --notification-color: #fff
+    --notification-color: #fff;
+    --title-color: #88888852;
+    --link-color : #888
 }
 
 .notification-number{
     background-color: var(--background-notification-color);
     color: var(--background-color)
+}
+
+.good-morning-title{
+    color: var(--link-color);
+}
+
+.stats-content h3{
+    color: var(--link-color);
+}
+
+.look-sale{
+    color: var(--link-color);
 }

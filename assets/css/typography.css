@@ -81,10 +81,15 @@ h2 {
 
 .sidebar h3 {
     font-size: 12px;
-    text-transform: uppercase;
-    color: #888;
+    color: var(--title-color);
     margin-bottom: 10px;
 }
+
+.stats-content h3{
+   font-size: 1rem;
+   font-weight: 300;
+}
+
 
 @media screen and (max-width: 767px) {
     body {
