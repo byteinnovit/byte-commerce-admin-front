@@ -1,8 +1,11 @@
 /**
  Byte Innov IT Theme
  **/
+@import "dimensions.css";
 @import "colors.css";
 @import "layout.css";
+@import "border.css";
+
 @import "typography.css";
 @import "buttons.css";
 
@@ -10,4 +13,24 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
+}
+
+.user-profile {
+    border-radius: 25px;
+    padding: 3px 10px 3px 3px;
+}
+
+.number {
+
+
+    height: 30px;
+    border-radius: 30px;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    padding: 5px 15px;
+    position: absolute;
+    left: 20px;
+    top: -12px;
+
 }

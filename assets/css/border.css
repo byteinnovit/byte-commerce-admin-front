@@ -1,0 +1,12 @@
+
+.border{
+    border:  1px solid var(--border-color);
+}
+
+.radius{
+ border-radius: var(--default-padding);
+}
+
+.border-bottom{
+    border-bottom:  1px solid var(--border-color);
+}

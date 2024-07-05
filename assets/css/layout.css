@@ -1,9 +1,191 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+
+/*
+WIDTH
+*/
+.w-100 {
+    width: 100%;
+}
+
+.w-90 {
+    width: 90%;
+}
+
+.w-80 {
+    width: 80%;
+}
+.w-85 {
+    width: 85%;
+}
+
+.w-70 {
+    width: 70%;
+}
+
+.w-60 {
+    width: 60%;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.w-40 {
+    width: 40%;
+}
+
+.w-30 {
+    width: 30%;
+}
+
+.w-20 {
+    width: 20%;
+}
+.w-15 {
+    width: 15%;
+}
+
+.w-10 {
+    width: 10%;
+}
+
+.w-5 {
+    width: 5%;
+}
+
+/*
+HEIGHT
+*/
+
+.h-100 {
+    height: 100%;
+}
+
+.h-90 {
+    height: 90%;
+}
+
+.h-80 {
+    height: 80%;
+}
+
+.h-70 {
+    height: 70%;
+}
+
+.h-60 {
+    height: 60%;
+}
+
+.h-50 {
+    height: 50%;
+}
+
+.h-40 {
+    height: 40%;
+}
+
+.h-30 {
+    height: 30%;
+}
+
+.h-20 {
+    height: 20%;
+}
+
+.h-10 {
+    height: 10%;
+}
+
+.h-15 {
+    height: 15%;
+}
+
+.h-5 {
+    height: 5%;
+}
+
+.bh {
+    height: 100vh;
+}
+
+.bw {
+    width: 100vw;
+}
+
+.flex {
+    display: flex;
+
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.flex-row-r {
+    flex-direction: row-reverse;
+}
+
+.flex-colum {
+    flex-direction: column;
+}
+
+.flex-colum-r {
+    flex-direction: column-reverse;
+}
+
+.flex-align-center {
+
+    justify-content: center;
+}
+.flex-align-item-center {
+
+    align-items: center;
+}
+.flex-align-space-between {
+    justify-content: space-between;
+}
+
+.padding {
+    padding: var(--default-padding);
+}
+
+.padding-x-2 {
+    padding: calc(var(--default-padding) * 3);
+}
+
+.margin {
+    margin: var(--default-padding);
+}
+.margin-d-2 {
+    margin: var(--default-padding)/2;
+}
+.space{
+    width: var(--default-padding);
+}
+.padding-bottom {
+    padding-bottom: var(--default-padding);
+}
+
+.circle-icon-wrapper{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+}
+
+.relative {
+    position: relative;
+}
+
+/*
 .dashboard {
     display: flex;
     flex-direction: column;
@@ -385,18 +567,19 @@ header{
 
 .product-item {
     flex: 0 0 auto;
-    width: calc(33.333% - 20px); /* Ajustez selon vos besoins */
+    width: calc(33.333% - 20px);  
     margin-right: 20px;
 }
 
 @media (max-width: 768px) {
     .product-item {
-        width: calc(50% - 20px); /* 2 éléments par ligne sur tablette */
+        width: calc(50% - 20px);  
     }
 }
 
 @media (max-width: 480px) {
     .product-item {
-        width: calc(100% - 20px); /* 1 élément par ligne sur mobile */
+        width: calc(100% - 20px);  
     }
 }
+*/

@@ -1,19 +1,62 @@
 :root {
     --default-background: #f7f7f8;
-    --black: #081226
+    --black: #081226;
     --primary-color: #3498db;
     --secondary-color: #2ecc71;
     --background-color:  #f8f9fa;
-    --text-color: #333;
+    --text-color: #747474;
     --border-color: #ddd;
-    --background-notification-color: #ff0000fa;
-    --notification-color: #fff;
+    --danger: #ff0000fa;
+
     --title-color: #88888852;
     --link-color : #888
 }
 
+.bg-primary{
+    background-color: var(--primary-color);
+}
+.bg-secondary{
+    background-color: var(--secondary-color);
+}
+.bg-default{
+    background-color: var(--default-background);
+}
+.bg-white{
+    background-color: #ffffff;
+}
+.bg-danger{
+    background-color:var(--danger) ;
+}
+.bg-black{
+    background-color:var(--black) ;
+}
+
+
+.text-primary{
+    color: var(--primary-color);
+}
+.text-secondary{
+    color: var(--secondary-color);
+}
+.text-default{
+    color: var(--text-color);
+}
+.text-white{
+    color: #ffffff;
+}
+.text-danger{
+    color:var(--danger) ;
+}
+.text-black{
+    color: black;
+}
+
+
+
+
+
 .notification-number{
-    background-color: var(--background-notification-color);
+    background-color: var(--danger);
     color: var(--background-color)
 }
 
